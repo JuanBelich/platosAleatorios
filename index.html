@@ -1,0 +1,71 @@
+<!-- Esta pagina es un proyecto que en un futuro la va a usar mi hermano en su trabajo
+asi que segun las necesides de el y sus compañeros decidi armarla. Lo que va a hacer esta pagina
+es de manera aleatoria preparar un menu que conste de una entrada, plato principal y postre. Las
+funcionalidades se las dare en un futuro con JavaScript. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link de font regular 300-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<!--Link de font italic-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <title>Mixer</title>
+</head>
+<body>
+    <nav>
+    <h1>Mixer de platos</h1>
+    </nav>
+    
+    <main>
+        <section class="Menu" id="principio">
+        
+            <article class="plato1" >
+                <h2>Entradas</h2>
+                
+                <h3 id="entrada"></h3>
+                <h3 id="entrada2"></h3>
+                <h3 id="entrada3"></h3>
+                
+            </article>
+
+            <article class="plato2" >
+                <h2>Plato Principal</h2>
+
+                <h3 id="main"></h3>
+                <h3 id="main2"></h3>
+                <h3 id="main3"></h3>
+
+                
+            </article>>
+
+            <article class="plato3" >
+                <h2>Postres</h2>
+
+                <h3 id="postre"></h3>
+                <h3 id="postre2"></h3>
+                <h3 id="postre3"></h3>
+
+            </article>
+
+        </section>
+    
+        <footer class="boton">
+            <a href="#principio"><button class="button1" id="refresh"  onclick="aleatorio()">Platos Aleatorios</button></a>
+            
+            <a href="./html/form.html"><button class="button1" id="agregar">Agregar Platos</button></a>
+        </footer>
+        
+    </main>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
