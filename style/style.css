@@ -141,7 +141,7 @@ p{
     margin-left: 150px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1200px) {
         .plato1{
             margin-bottom: 15px;
             margin-left: 30px;
