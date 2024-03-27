@@ -155,11 +155,15 @@ p{
             margin-left: 30px;
         }
         .button1{
+            margin-left: auto;
             margin-bottom: 15px;
-            margin-left: 30px;
+            
         }
         h1{
             text-align: center;
+        }
+        #agregar{
+            margin-left: 1px;
         }
         
     

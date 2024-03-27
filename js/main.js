@@ -70,16 +70,7 @@ function aleatorio(){
     if (postre.length == 0 || postre[indice3] === undefined) {
         postre=["Tarta Vianner","Gelato","Tiramisú","Panna Cotta","Creppes tibios de durazno y nutella","Manzanas al horno","Ensalada de frutas o helado","Copa Melba","Torta de vainilla y chocolate con salsa de frutos rojos","Copa brownie","Clasico flan casero","Clasico Vigilante","Manjar Tower con helado","Panna cotta de malbec","Biscuit de chocolate y helado","Copa mendocina","Mil hojas con crema de chocolate","Copa jamaica","Creppes tibios de dulce de leche", "Chocotorta con frutos rojos", "Duraznos al chantilly","Copa oreo","Copa tiramisu","Copa chocolina","Mousse de mango, frutos rojos y crocante de chocolate","Chocotorta","Mousse de mango y crocante de chocolate","Banana split","Minitorta de durazno, crema y dulce de leche"];
 
-    }
-        
-    indice3 = Math.floor(Math.random() * postre.length);
-    document.getElementById("postre3").innerHTML=postre[indice3];
-    postre.splice(indice3,1)
-    if (postre.length == 0 || postre[indice3] === undefined) {
-        postre=["Tarta Vianner","Gelato","Tiramisú","Panna Cotta","Creppes tibios de durazno y nutella","Manzanas al horno","Ensalada de frutas o helado","Copa Melba","Torta de vainilla y chocolate con salsa de frutos rojos","Copa brownie","Clasico flan casero","Clasico Vigilante","Manjar Tower con helado","Panna cotta de malbec","Biscuit de chocolate y helado","Copa mendocina","Mil hojas con crema de chocolate","Copa jamaica","Creppes tibios de dulce de leche", "Chocotorta con frutos rojos", "Duraznos al chantilly","Copa oreo","Copa tiramisu","Copa chocolina","Mousse de mango, frutos rojos y crocante de chocolate","Chocotorta","Mousse de mango y crocante de chocolate","Banana split","Minitorta de durazno, crema y dulce de leche"];
-
-    }
-                            
+    }                                       
 }
 
 aleatorio()
